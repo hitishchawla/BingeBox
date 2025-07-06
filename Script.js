@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 const bgImages = [
-    "assets/images/bg.jpg",
     "assets/images/bg1.jpg",
+    "assets/images/bg2.jpg",
     "assets/images/bg3.jpg"
 ];
 
