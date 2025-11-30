@@ -66,7 +66,7 @@ nav button {
 }
 
 .hero {
-    height: calc(100% - 100px);
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,6 +76,9 @@ nav button {
     position: relative;
     gap: 23px;
     padding: 0px 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero> :nth-child(1) {
@@ -161,8 +164,25 @@ nav button {
 
 .secimg {
     position: relative;
+    width: 640px;
+    margin: 0 auto;
 }
-.secimg img {
+.tv-frame {
+    width: 100%;
+    display: block;
+}
+
+.tv-inside {
+    position: absolute;
+    top: 66px;          /* exact screen top */
+    left: 31px;         /* exact screen left */
+    width: 380px;       /* exact visible width */
+    height: 181px;      /* exact visible height */
+    object-fit: cover;
+    border-radius: 2px;
+    z-index: -1;
+}
+/* .secimg img {
     width: 555px;
     position: relative;
     z-index: 10;
@@ -173,9 +193,9 @@ nav button {
     top: 51px;
     right: 0;
     /* object-fit: cover; */
-    width: 480px;
+    /* width: 480px;
     height: 340px;
-}
+} */ 
 
 section.first > div{
     display: flex;

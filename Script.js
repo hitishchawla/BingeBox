@@ -28,9 +28,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 const bgImages = [
-    "assets/images/bg1.jpg",
-    "assets/images/bg2.jpg",
-    "assets/images/bg3.jpg"
+    "assets/images/bg-1.jpg",
+    "assets/images/bg-2.jpg",
+    "assets/images/bg-3.jpg",
+    "assets/images/bg-4.jpg",
+    "assets/images/bg-5.jpg"
 ];
 
 let bgIndex = 0;
